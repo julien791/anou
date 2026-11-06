@@ -6,7 +6,7 @@
   var P = '../shared/';
   var C = {
     calm: {
-      word: 'Flat',
+      word: 'Flat', dial: 'Wind SE · calm west',
       cond: 'Calm',
       chip: 'Glassy lagoon · W 6 kn · sea 0.4 m',
       matched: 'Clip matched to: calm west coast, low swell',
@@ -22,7 +22,7 @@
       notif: 'Flat sea until 1pm. Snorkel Flic en Flac early, sunset at Tamarin 18:12.'
     },
     windy: {
-      word: 'Windy',
+      word: 'Windy', dial: 'SE 22 kn · choppy',
       cond: 'Windy',
       chip: 'Trade wind · SE 22 kn · chop 1.2 m',
       matched: 'Clip matched to: strong SE trade wind',
