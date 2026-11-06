@@ -28,11 +28,22 @@ illustration system to build on rather than invent.
 5. **Applications.** QR room card (A6, both sides), counter sticker for stamp stations
    (round, 80 mm), a social card template for the Kreol word, and the install-guide
    illustrations (share, add to home screen, open).
-6. **Guidelines.** `brand/README.md`: everything above, with do and don't examples, in a
+6. **Photography direction and library.** This is the heart of the visual identity: large
+   immersive photographs of Mauritian water and landscape with people mid-activity. Deliver
+   a photography style guide (subjects, light, colour grading preset, crop and horizon rules,
+   what to reject), a shot list for the pilot region (west coast, Le Morne, the Gorges,
+   Chamarel, lagoon from water level and from above), a sourcing plan (licensed stock for
+   launch, local photographer commission with budget estimate, partner-submitted photo
+   rules), and a starter library of 40 licensed images in `brand/photos/` with licences
+   recorded in `brand/photos/LICENCES.md`. Every image must be a real, identifiable
+   Mauritian location; no generic tropical stock.
+7. **Guidelines.** `brand/README.md`: everything above, with do and don't examples, in a
    form a printer and a developer can both use.
 
 ## Milestone 1 (for your pick)
-Three directions, each as one board: moodboard, wordmark, palette, one stamp, the room card.
+Three directions, each as one board: photography moodboard with grading preset applied,
+wordmark, palette, one stamp, the room card, and one brief card mockup showing type over
+a photo.
 Product shows them to the founder; the chosen direction proceeds to Milestone 2.
 
 ## Milestone 2
@@ -41,7 +52,10 @@ Full deliverables for the chosen direction across all six workstreams.
 ## Constraints
 - Nothing that reads as a resort brand or an airline. Reference points are in
   `docs/02-interface.md`.
-- Every colour and type choice must survive outdoor sunlight on a phone.
+- Every colour and type choice must survive outdoor sunlight on a phone, including over
+  photographs.
+- Photography is the base of the identity; hand-made elements (stamps, lettering) are the
+  accent. Do not invert that balance.
 - Fonts: open licences or a named commercial licence with cost, no "we will sort it later".
 - Record any constraint you impose on interface design in `docs/decisions/`.
 

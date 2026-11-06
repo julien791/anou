@@ -14,16 +14,20 @@ Set aspect ratio to portrait 9:16 for single screens, 16:9 for the three-screen 
 > High-fidelity mobile app UI design mockup for "Anou", a travel companion app for tourists
 > in Mauritius, shown on a single modern iPhone-sized screen, straight-on, flat on a plain
 > warm off-white background, no hands, no 3D tilt, no shadows except subtle screen edge.
-> Visual language: warm, hand-made, a little playful, inspired by Mauritian postage stamps,
-> hand-painted shop signs, sega dance colours and the Blue Penny stamp. Palette built around
-> deep indigo, coral red, sugar-cane green, mango yellow and sand, with generous off-white
-> space; dark mode not needed. Typography: a friendly humanist sans for body text and a
+> Visual language: photography-led and immersive. Large, beautiful photographs of
+> Mauritius carry the screen: the deep blue of the lagoon from above and from in the water,
+> people mid-activity (snorkelling, kitesurfing, paddleboarding, hiking Le Morne with the
+> lagoon behind), light on water, mountain viewpoints. Natural colour grading, not
+> oversaturated turquoise; real identifiable places. The UI sits lightly on top with text
+> on soft dark scrims or clean off-white panels. Accent elements are warm and hand-made,
+> inspired by Mauritian postage stamps and the Blue Penny: a small set of accent colours
+> (deep indigo, coral red, sand) used sparingly against the photography. Typography: a friendly humanist sans for body text and a
 > characterful serif or hand-lettered display face for one headline only. Rounded cards,
 > clear hierarchy, big readable type designed for outdoor sunlight, thumb-reach actions at
 > the bottom. Illustration style for icons and stamps: flat, textured, slightly imperfect
-> ink-and-paper feel, no gradients, no glossy 3D. Avoid: generic turquoise-and-white resort
-> look, stock photo hero images, glassmorphism, neon, dark UI, dashboard clutter, more than
-> five colours. Keep it looking like a real shippable app, not a poster.
+> ink-and-paper feel, no gradients, no glossy 3D. Avoid: generic resort-brochure stock photos with posed models,
+> oversaturated water, glassmorphism, neon, dark UI, dashboard clutter, more than five
+> colours in the UI itself. Keep it looking like a real shippable app, not a poster.
 
 ---
 
@@ -32,8 +36,9 @@ Set aspect ratio to portrait 9:16 for single screens, 16:9 for the three-screen 
 > The screen is the app's home: today's morning brief. Top: small date line "Tuesday 11 Nov"
 > and a one-word weather state with a tiny hand-drawn sun-and-wind icon. Headline in the
 > display face: "Wind is up on your coast. Head west." Below, a short paragraph of two
-> sentences in body type. Then three stacked suggestion cards, each with a small
-> illustrated square thumbnail, a place name ("Flic en Flac lagoon", "Tamarin sunset
+> sentences in body type. Then three stacked 4:5 photo cards, each a full-bleed photograph (a flat lagoon from
+> water level, a sunset over Tamarin bay, a rum distillery among sugar cane) with the text
+> on a soft dark gradient at the bottom: a place name ("Flic en Flac lagoon", "Tamarin sunset
 > 18:12", "Chamarel rum tasting"), one-line reason, and a small tag; the third card carries
 > a discreet "Partner" label. Under the cards, a tip strip: "High tide 11:40, best snorkel
 > window." Bottom tab bar with four items: Today, Tonight, Passport, Explore, using
@@ -43,7 +48,8 @@ Set aspect ratio to portrait 9:16 for single screens, 16:9 for the three-screen 
 ## Screen 2 · Landing page from the hotel QR code
 
 > A mobile web landing page seen in Safari, not yet installed. Top: property welcome card
-> "Welcome to Villa Lakaz" with a small host photo circle and Wi-Fi line. Middle: a compact
+> "Welcome to Villa Lakaz" with a small host photo circle and Wi-Fi line. Behind the top half, a full-bleed photograph of a snorkeller over a turquoise reef
+> seen from above, softly darkened at the bottom. Middle: a compact
 > preview of today's brief with the headline "Flat sea this morning. Go snorkelling early."
 > Bottom third is the focus: a warm, friendly install panel titled "Add Anou to your home
 > screen" with three tiny numbered illustrated steps (share icon, "Add to Home Screen", open

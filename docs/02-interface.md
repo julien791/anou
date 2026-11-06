@@ -9,12 +9,22 @@ as the design session fills it in. Build sessions read it; they do not improvise
    splash, no tabs to find it.
 2. **Phone, outdoors, one hand.** Big type, high contrast, works in sunlight, thumb-reach
    actions. Assume 390 px wide and a sandy screen.
-3. **Feels like Mauritius, not like a travel startup.** Warm, hand-made, a little playful.
-   Reference points: Mauritian stamp design, sega colours, hand-painted shop signs, the
-   Blue Penny. Avoid: generic turquoise-and-white resort palettes, stock photo heroes.
-4. **Install is the hardest moment.** Spend disproportionate design effort on the landing
+3. **Photography leads.** The app is built around large, immersive photographs of
+   Mauritius: the blue of the lagoon from above and from in the water, people actually
+   doing things (snorkelling, kitesurfing, paddling, hiking Le Morne and the Gorges with
+   the scenery behind them), light on water, viewpoints. Every brief suggestion card, the
+   landing page and Explore are photo-first; the UI sits lightly on top. Rules that keep
+   this from looking like resort stock: real places that are identifiable, natural colour
+   grading (no oversaturated turquoise), people shown mid-activity rather than posing,
+   consistent crop and horizon rules, and one editing preset across the whole library.
+   Hand-made elements (stamps, the Kreol card, icons) are the counterpoint, not the base.
+   Reference points for those: Mauritian stamp design, sega colours, the Blue Penny.
+4. **Text over photos must still read in sunlight.** Any copy placed on a photograph sits
+   on a scrim or a solid panel; headline contrast is measured against the darkest and
+   lightest likely photo, not one sample. Never thin white type over water.
+5. **Install is the hardest moment.** Spend disproportionate design effort on the landing
    page and the iOS add-to-home-screen flow.
-5. **Hosts and businesses are busy people.** Their screens are forms with good defaults,
+6. **Hosts and businesses are busy people.** Their screens are forms with good defaults,
    finished in under five minutes on a phone.
 
 ## Surfaces to design (priority order)
@@ -44,7 +54,17 @@ as the design session fills it in. Build sessions read it; they do not improvise
 WCAG 2.1 AA. Minimum 4.5:1 text contrast, 44 px touch targets, no information carried by
 colour alone (stamps earned vs not must differ in shape too), reduced-motion respected.
 
+## Photography
+
+- Formats: full-bleed hero (landing, listing detail), 4:5 cards (brief, Tonight), 1:1
+  thumbnails (Explore grid), 16:9 strips (host page). Design specifies safe areas for text.
+- Performance: the frontend session serves responsive sizes and lazy-loads; the landing
+  page hero must not break the 2 s budget on hotel Wi-Fi. Photos are the main cost here.
+- Sourcing and library rules are owned by Brand (see `docs/sessions/brand.md`, workstream 7).
+
 ## Open questions
 
 - Illustration style for the 12 stamps: commissioned, generated, or typographic?
+- Do we commission a photographer for the pilot region, or launch on licensed stock plus
+  partner-submitted photos with strict quality rules?
 - Does the brief show a map at all in v1, or only place names with a "directions" link?

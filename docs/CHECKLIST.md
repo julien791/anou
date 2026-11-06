@@ -14,6 +14,7 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 - [ ] Pick the pilot area (proposal: west coast, Flic en Flac to Le Morne)
 - [ ] Decide v1 languages: EN + FR only, or add DE/IT
 - [ ] Decide whether v1 shows prices in MUR, guest currency, or both
+- [ ] Photography: commission a local photographer for the pilot region, or launch on licensed stock plus partner photos (Brand will estimate both)
 - [ ] Hosting budget ceiling per month for the pilot
 - [ ] Do you have hotel or Airbnb host contacts for the pilot, and how many
 - [ ] Billing entity and Stripe account availability (needed by M3, not before)

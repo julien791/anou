@@ -2,7 +2,7 @@
 
 Product reviews every brand deliverable against this before it reaches the founder or
 another session. Score each line 0–2. Anything scoring 0 goes back with notes; a direction
-needs 18/24 or better to be shown to the founder.
+needs 20/26 or better to be shown to the founder.
 
 ## Strategy fit
 1. Expresses "a local friend texting", not a resort, airline or tourism board
@@ -16,6 +16,11 @@ needs 18/24 or better to be shown to the founder.
 7. Type: licence confirmed for web embedding and print, cost stated
 8. Stamp system: rules are specific enough that a second illustrator could draw stamp 7 and
    it would match stamps 1, 2 and 11
+
+## Photography
+8b. Style guide is specific (grading preset supplied, crop rules, reject examples) and the
+    starter library follows it; every image is a real identifiable Mauritian place with a
+    recorded licence; no oversaturated or generic tropical stock
 
 ## Usability
 9. Survives outdoor sunlight on a phone (contrast, no thin light-on-light)
