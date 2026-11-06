@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anou · A · Today</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..700,0..100&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="../shared/conditions.js"></script><script src="../shared/icons.js"></script>
+</head><body><div class="phone">
+<header class="hero">
+  <video data-hero="brief" muted loop playsinline autoplay preload="metadata"></video>
+  <div class="hero-top"><span>Tue 10 Nov</span><span class="chip"><svg data-icon="wind"></svg><span data-k="chip"></span></span></div>
+  <div class="hero-bottom">
+    <p class="eyebrow">Your morning · Flic en Flac</p>
+    <h1 data-k="headline"></h1>
+    <p class="matched"><span class="rec"></span><span data-k="matched"></span></p>
+  </div>
+</header>
+<main class="sheet">
+  <p class="lede" data-k="body"></p>
+  <div class="switch">Prototype: <a href="?c=calm" data-switch="calm">Calm day</a><a href="?c=windy" data-switch="windy">Windy day</a></div>
+  <section class="cards" aria-label="Today's suggestions">
+    <template data-cards><article class="card"><img data-c="img" alt=""><span class="num" data-c="n"></span>
+      <div class="card-text" style="position:absolute"><span class="partner" data-c="partner">Partner</span><h3 data-c="place"></h3><p data-c="why"></p><span class="tag" data-c="tag"></span></div></article></template>
+  </section>
+  <aside class="tip"><svg data-icon="tide"></svg><span data-k="tip"></span></aside>
+</main>
+<nav class="tabs" aria-label="Main">
+  <a href="brief.html" aria-current="page"><svg data-icon="today"></svg>Today</a>
+  <a href="tonight.html"><svg data-icon="tonight"></svg>Tonight</a>
+  <a href="passport.html"><svg data-icon="passport"></svg>Passport</a>
+  <a href="#"><svg data-icon="explore"></svg>Explore</a>
+</nav>
+</div></body></html>
