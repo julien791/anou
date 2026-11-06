@@ -21,8 +21,9 @@ without adding speed.
 ### Layer 1 · Thinking (strong models, most of the budget)
 | Session | Model | Owns | Depends on |
 |---|---|---|---|
+| **Brand identity** | Opus 5.5 | Brand strategy, wordmark and logo, palette and type system, the 12-stamp illustration system, print applications (QR room card, counter sticker), brand guidelines. Fans out subagents per workstream. | Vision; name confirmed |
 | **Voice & copy** | Opus 5.5 | The brief's voice: tone guide, 30 sample briefs and Tonight messages, Passport stamp stories, Kreol word selection, notification wording, EN/FR microcopy | Experience spec |
-| **Interface design** | Opus 5.5 | Tokens, HTML prototypes for every surface, interface spec, stamp visual system | Experience spec; copy for real text |
+| **Interface design** | Opus 5.5 | Tokens derived from brand, HTML prototypes for every surface, interface spec | Brand identity (palette, type, stamps); experience spec; copy for real text |
 | **Brief intelligence** | Opus 5.5 | The rules that turn conditions into suggestions: suitability model per listing, region/wind/rain/sea logic, segment logic, anti-repetition, end-of-stay shift. Writes it as a spec plus a pure TypeScript rules module with tests | Data model |
 | **Research & market** | Sonnet 5.5 | Competitor teardown (MauritiusNow, Discover Mauritius, hotel apps), weather/tide/swell data sources, domain and trademark checks, Mauritius Data Protection Act notes, pricing comparables | Nothing |
 
@@ -47,19 +48,20 @@ without adding speed.
 | Session | Model | Owns |
 |---|---|---|
 | **QA & accessibility** | Sonnet 5.5 | Playwright flows on iOS and Android viewports, install-flow testing, WCAG audit, reviewing PRs against the spec before Product merges |
-| **Go-to-market** | Opus 5.5 | Host pitch one-pager, business pitch, QR room card and counter sticker artwork brief, pilot plan for the west coast, pricing validation script |
+| **Go-to-market** | Opus 5.5 | Host pitch one-pager, business pitch, pilot plan for the west coast, pricing validation script. Uses brand's print templates. |
 
 ## Waves
 
 Sessions start in waves so nobody waits idle.
 
-- **Wave 1 (now):** Voice & copy, Interface design, Brief intelligence, Research, Core API,
-  Places & listings, Culture & language, Events.
+- **Wave 1 (now):** Brand identity, Voice & copy, Brief intelligence, Research, Core API,
+  Places & listings, Culture & language, Events. Interface design starts a few days behind,
+  once brand has a direction, so it does not design twice.
 - **Wave 2 (when Core API publishes its contract and design ships tokens):** Tourist app,
   Host & business portal, Notifications, Conditions engine, Infra.
 - **Wave 3 (M2):** QA & accessibility, Go-to-market.
 
-That is 16 sessions in total, 8 live at once at peak. Each is long-lived: it keeps its
+That is 17 sessions in total, 9 live at once at peak. Each is long-lived: it keeps its
 context, and Product sends it the next task rather than starting fresh.
 
 ## Inside a session

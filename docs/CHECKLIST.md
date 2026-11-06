@@ -22,7 +22,8 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 
 - [ ] "With kids" brief variant: launch or v1.1
 - [ ] Geofenced nudges: in v1 or deferred
-- [ ] Stamp illustration style (commissioned, generated, typographic)
+- [ ] Logo direction: wordmark only, or wordmark plus symbol (Brand will propose three)
+- [ ] Stamp illustration style (Brand will propose; you pick)
 - [ ] Whether the brief shows a map in v1
 - [ ] LLM tone pass in v1 or ship template briefs first
 - [ ] Reward value floor for stamp stations (what counts as a real reward)
@@ -38,6 +39,7 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 - [ ] Mauritius Data Protection Act implications for device ID and location (Research)
 - [ ] Pro tier price sanity check against local advertising spend (Research)
 - [ ] First 10 sample briefs for your reaction before the voice is locked (Voice & copy)
+- [ ] Three brand directions (moodboard, wordmark, palette, one stamp each) for your pick (Brand)
 - [ ] First landing page and brief prototypes for your reaction (Interface design)
 
 ## In flight
@@ -52,3 +54,4 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 - [x] Name shortlist and recommendation (Anou, Zil, Ayo)
 - [x] Core experience defined: morning brief, Tonight, Passport, Kreol word, host page
 - [x] Repo scaffold, specs and session briefs written
+- [x] Brand identity session added to the structure

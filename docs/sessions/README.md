@@ -6,6 +6,7 @@ Thinking-heavy work gets the strongest models; well-specified build work gets ch
 | Session | Model | Owns | Branch | Brief |
 |---------|-------|------|--------|-------|
 | Product (orchestrator) | Fable 5.1 | `docs/00`, `01`, `05`; reviews everything; dispatches work | `main` | this file |
+| Brand identity | Opus 5.5 | `brand/` | `brand` | `brand.md` |
 | Design | Opus 5.5 | `docs/02-interface.md`, `design/` | `design` | `design.md` |
 | Frontend | Sonnet 5.5 | `apps/web/`, ADR-0001 | `frontend` | `frontend.md` |
 | Backend | Sonnet 5.5 | `apps/api/`, `docs/03`, `docs/04` | `backend` | `backend.md` |
@@ -26,6 +27,8 @@ Thinking-heavy work gets the strongest models; well-specified build work gets ch
    what was built, where, how it was verified (commands run and results), open questions,
    and what you suggest next. Keep it under 300 words.
 6. **Dependencies between sessions.**
+   - Interface design depends on `brand/` for palette, type and the stamp system. Until
+     brand ships a direction, design works on layout and flows with neutral styling.
    - Frontend depends on `design/tokens.json` and `design/screens/` for the landing page
      and brief. Until they exist, frontend builds structure, routing, PWA plumbing and
      push client against placeholder styling.
