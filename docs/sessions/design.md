@@ -8,6 +8,23 @@
 ## Goal
 Turn the experience spec into an interface the frontend session can build without guessing.
 
+## Milestone 0 · Concept designs (start here)
+Brand has not started yet, so this phase is exploratory and deliberately broad. Produce
+**three distinct concept directions** for the app, each as a set of HTML prototypes in
+`design/concepts/{a,b,c}/` covering the same four screens: landing page from QR (with the
+install panel), morning brief home, Tonight, Passport overview. Each direction has a
+one-page `README.md` stating its idea in two sentences, its palette, type and how it uses
+photography and motion. All three are photo-led per `docs/02-interface.md` §3; vary the
+balance of photo vs panel, the type personality, the amount of hand-made accent, and how
+the conditions-matched hero (see §Motion) is expressed. Use licensed placeholder imagery
+(Unsplash or similar, Mauritius subjects where possible, credited in the README) and a
+muted looping placeholder video or an animated poster for the hero. Plain HTML and CSS,
+mobile-first at 390 px, open in a browser with no build step. Take a 2x screenshot of each
+screen into `design/concepts/{x}/shots/` with Playwright so the founder can review without
+running anything. Open a pull request from branch `design` and report to Product.
+Budget: this is a concept pass, not production. Favour breadth and a strong point of view
+over polish.
+
 ## Milestone 1 deliverables
 1. `design/tokens.json` with light and dark values. Palette must feel Mauritian and pass
    WCAG AA; document the reasoning in a short `design/README.md`.

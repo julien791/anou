@@ -54,6 +54,18 @@ as the design session fills it in. Build sessions read it; they do not improvise
 WCAG 2.1 AA. Minimum 4.5:1 text contrast, 44 px touch targets, no information carried by
 colour alone (stamps earned vs not must differ in shape too), reduced-motion respected.
 
+## Motion (proposed direction, founder leaning yes)
+
+Short muted video loops where motion sells, stills where they inform:
+- Landing page hero: a 6 s loop (poster frame first, clip fades in), the install moment.
+- Morning brief headline card: a clip **matched to today's conditions** (glassy lagoon on a
+  calm day, kitesurfers at Le Morne on a windy one). This is the signature feature; no
+  competitor has the conditions engine to do it.
+- Stamp-earned moment: a short clip of the place just visited.
+Everything else stays stills: suggestion cards, Tonight, Explore, anything offline.
+Rules: always muted and inline, pause when not visible, one clip per screen at most,
+1–3 MB each, poster frame always present.
+
 ## Photography
 
 - Formats: full-bleed hero (landing, listing detail), 4:5 cards (brief, Tonight), 1:1

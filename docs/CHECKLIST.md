@@ -41,13 +41,14 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 - [ ] Pro tier price sanity check against local advertising spend (Research)
 - [ ] First 10 sample briefs for your reaction before the voice is locked (Voice & copy)
 - [ ] Three brand directions (moodboard, wordmark, palette, one stamp each) for your pick (Brand)
-- [ ] First landing page and brief prototypes for your reaction (Interface design)
+- [ ] Three concept directions, four screens each, for your reaction (Interface design, in flight)
 
 ## In flight
 
 | Session | Status | Last report |
 |---|---|---|
 | Product | Scaffold committed locally; waiting on repo attach | 2026-11-06 |
+| Interface design | Spawned for Milestone 0: three concept directions, four screens each | 2026-11-06 |
 | All others | Not started | |
 
 ## Done
