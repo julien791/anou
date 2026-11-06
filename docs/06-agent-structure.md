@@ -16,12 +16,12 @@ without adding speed.
 ### Layer 0 · Orchestration
 | Session | Model | Owns |
 |---|---|---|
-| **Product** (this session) | Fable 5.1 | Vision, experience spec, the checklist, dispatching work, reviewing and merging pull requests, resolving contract disputes. Talks to you. |
+| **Product** (this session) | Fable 5.1 | Vision, experience spec, the checklist, dispatching work, reviewing and merging pull requests, resolving contract disputes. Talks to you. **Quality control for brand:** scores every brand deliverable against `docs/quality/brand-review.md` before it reaches you or another session. |
 
 ### Layer 1 · Thinking (strong models, most of the budget)
 | Session | Model | Owns | Depends on |
 |---|---|---|---|
-| **Brand identity** | Opus 5.5 | Brand strategy, wordmark and logo, palette and type system, the 12-stamp illustration system, print applications (QR room card, counter sticker), brand guidelines. Fans out subagents per workstream. | Vision; name confirmed |
+| **Brand identity** | Opus 5.5 | Brand strategy, wordmark and logo, palette and type system, the 12-stamp illustration system, print applications (QR room card, counter sticker), brand guidelines. Fans out subagents per workstream. Gated: no milestone proceeds without a Product review. | Vision; name confirmed |
 | **Voice & copy** | Opus 5.5 | The brief's voice: tone guide, 30 sample briefs and Tonight messages, Passport stamp stories, Kreol word selection, notification wording, EN/FR microcopy | Experience spec |
 | **Interface design** | Opus 5.5 | Tokens derived from brand, HTML prototypes for every surface, interface spec | Brand identity (palette, type, stamps); experience spec; copy for real text |
 | **Brief intelligence** | Opus 5.5 | The rules that turn conditions into suggestions: suitability model per listing, region/wind/rain/sea logic, segment logic, anti-repetition, end-of-stay shift. Writes it as a spec plus a pure TypeScript rules module with tests | Data model |

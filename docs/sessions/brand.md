@@ -49,5 +49,13 @@ Full deliverables for the chosen direction across all six workstreams.
 Figma, Canva and Adobe Express connectors may be attached to the session; use whichever
 produces real SVG and print-ready PDF. HTML/SVG authored directly is fine too.
 
+## Quality gates
+Product oversees this session directly. Each milestone is submitted as a pull request with
+a report and is scored against `docs/quality/brand-review.md`. Expect change requests; a
+direction is shown to the founder only when it scores 18/24 or better. Do not send work to
+the founder or to interface design yourself. Mid-milestone, send Product a short check-in
+when the three directions exist as rough boards, before polishing, so effort is not spent
+finishing a direction that will be cut.
+
 ## Report to
-The product session, per `docs/sessions/README.md §5`.
+The product session, per `docs/sessions/README.md §5`, plus the check-in above.
