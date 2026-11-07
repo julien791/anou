@@ -39,4 +39,4 @@ letters, no wipe.
   that the conditions engine must supply. Condensed caps are less readable for longer
   headlines, so headlines must stay short.
 
-Credits: see `../shared/photos/CREDITS.md`.
+Imagery: labelled stand-ins for now; see "Imagery" in `../README.md`.

@@ -19,9 +19,18 @@ visit `/design/concepts/`. No build step. Brief screens take `?c=calm` or `?c=wi
 the hero clip, `icons.js` and `stamps.js` are placeholder line icons and stamp motifs,
 `make-loops.sh` builds the placeholder hero loops from stills with ffmpeg.
 
-**Imagery:** photos are Wikimedia Commons, freely licensed, credited per file in
-`shared/photos/CREDITS.md`. Hero "video" is an animated poster: a 6 s push-in on a still
-(about 50 KB mp4, 17 KB webm), so the motion rules can be judged before real footage exists.
-Screenshots are taken with reduced motion, so they show the poster frame.
+**Imagery (read this before judging):** every photo in these screenshots is a **labelled
+stand-in** (a graded gradient named after its subject, e.g. `calm-lagoon`), not a photograph.
+This cloud session's network blocks image hosts, and a helper session in an environment
+that allows Wikimedia Commons was rate-limited (HTTP 429) before it could download
+anything. It did licence-check Commons picks for all 16 slots; the manifest lands on branch
+`design-photos` as `shared/photos/PICKS.md`. To swap in real photos, save each pick over
+the same filename in `shared/photos/`, credit it in `shared/photos/CREDITS.md`, run
+`shared/make-loops.sh`, and retake the screenshots. Nothing else changes: every screen
+reads images by filename.
+
+Hero "video" is an animated poster: a 6 s push-in on a still (about 50 KB mp4, 17 KB webm),
+so the motion rules can be judged before real footage exists. Screenshots are taken with
+reduced motion, so they show the poster frame.
 
 Copy is placeholder in the house tone; the real microcopy lands in `design/copy.md` at M1.

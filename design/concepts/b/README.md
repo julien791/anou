@@ -38,4 +38,4 @@ poster frame and the postmark already in place.
 − Most hand-made detail to build and keep consistent; can slide into nostalgia or
   scrapbook if overdone. Smaller photos sell the sea less hard than A.
 
-Credits: see `../shared/photos/CREDITS.md`.
+Imagery: labelled stand-ins for now; see "Imagery" in `../README.md`.

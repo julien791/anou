@@ -36,4 +36,4 @@ with a 28 px radius. Reduced motion: poster only, no drift.
   so it depends heavily on a strong, consistent library. Hero eats the first screen, so
   the suggestions start below the fold.
 
-Credits: see `../shared/photos/CREDITS.md`.
+Imagery: labelled stand-ins for now; see "Imagery" in `../README.md`.
