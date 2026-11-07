@@ -7,6 +7,10 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 
 ## For you
 
+- [ ] **Urgent:** GitHub reports the `julien791` account as suspended (HTTP 403 on every
+      request since 2026-11-07 morning). Nothing can be pushed or merged until it is
+      resolved. Check email from GitHub and github.com/settings; appeal via GitHub Support
+      if needed.
 - [ ] Approve attaching the `julien791/anou` repository to the product session (permission
       prompt), or start a new product session with the repo selected
 - [ ] Agree or amend the agent structure in `docs/06-agent-structure.md`
@@ -48,7 +52,7 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 | Session | Status | Last report |
 |---|---|---|
 | Product | Scaffold committed locally; waiting on repo attach | 2026-11-06 |
-| Interface design | Spawned for Milestone 0: three concept directions, four screens each | 2026-11-06 |
+| Interface design | Three concepts (Window, Postmark, Sega) built and on branch `design`; screenshots and PR blocked by GitHub suspension; asked to publish a review page instead | 2026-11-07 |
 | All others | Not started | |
 
 ## Done
