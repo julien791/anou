@@ -80,15 +80,9 @@ Rules: always muted and inline, pause when not visible, one clip per screen at m
 - Do we commission a photographer for the pilot region, or launch on licensed stock plus
   partner-submitted photos with strict quality rules?
 - Does the brief show a map at all in v1, or only place names with a "directions" link?
-- *Design assumption (M0):* the conditions-matched hero clip shows the conditions **where
-  the brief sends you**, not at the guest's own property (calm-day brief shows the glassy
-  west lagoon even if the guest is on the windy east). Needs Product confirmation.
-- *Design assumption (M0):* the conditions engine supplies a short **condition word** per
-  day from a fixed vocabulary (Flat, Windy, Rain, Clear, Swell, Hot) alongside the headline.
-  Concepts B and C depend on it; A uses a one-line conditions chip instead.
-- *Design assumption (M0):* the hero clip library needs, per region, one clip per condition
-  word. Until footage exists the prototypes use an animated poster (slow push-in on a
-  still), which also fits the 1–3 MB budget comfortably.
+- *Resolved (ADR 0002):* the hero clip shows conditions where the brief sends you; the brief
+  carries a condition word from a fixed vocabulary (Flat, Windy, Rain, Clear, Swell, Hot);
+  missing clips fall back to an animated poster. See `docs/decisions/0002-hero-conditions.md`.
 - *Design assumption (M0):* Tonight keeps the light background with an indigo accent
   shift, per the image-model brief; no dark theme.
 - The landing page shows the iOS steps by default in the concepts; Android gets a single
