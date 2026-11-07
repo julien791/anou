@@ -14,6 +14,7 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 - [ ] Approve attaching the `julien791/anou` repository to the product session (permission
       prompt), or start a new product session with the repo selected
 - [ ] Agree or amend the agent structure in `docs/06-agent-structure.md`
+- [ ] Pick an interface concept direction: A Window, B Postmark (recommended), C Sega, or a mix
 - [ ] Confirm the name "Anou" (or pick an alternative) so domain and trademark work can start
 - [ ] Pick the pilot area (proposal: west coast, Flic en Flac to Le Morne)
 - [ ] Decide v1 languages: EN + FR only, or add DE/IT
@@ -45,14 +46,14 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 - [ ] Pro tier price sanity check against local advertising spend (Research)
 - [ ] First 10 sample briefs for your reaction before the voice is locked (Voice & copy)
 - [ ] Three brand directions (moodboard, wordmark, palette, one stamp each) for your pick (Brand)
-- [ ] Three concept directions, four screens each, for your reaction (Interface design, in flight)
+- [x] Three concept directions, four screens each: review page at https://claude.ai/artifact/87w9MirrknFpWCTonCBkmy (Product recommends B, Postmark)
 
 ## In flight
 
 | Session | Status | Last report |
 |---|---|---|
 | Product | Scaffold committed locally; waiting on repo attach | 2026-11-06 |
-| Interface design | Three concepts (Window, Postmark, Sega) built and on branch `design`; screenshots and PR blocked by GitHub suspension; asked to publish a review page instead | 2026-11-07 |
+| Interface design | M0 delivered: three concepts on branch `design`, PR 1 open, review page published by Product; session idle until the founder picks a direction | 2026-11-07 |
 | All others | Not started | |
 
 ## Done
