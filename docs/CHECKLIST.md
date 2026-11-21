@@ -7,10 +7,6 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 
 ## For you
 
-- [ ] **Urgent:** GitHub reports the `julien791` account as suspended (HTTP 403 on every
-      request since 2026-11-07 morning). Nothing can be pushed or merged until it is
-      resolved. Check email from GitHub and github.com/settings; appeal via GitHub Support
-      if needed.
 - [ ] Approve attaching the `julien791/anou` repository to the product session (permission
       prompt), or start a new product session with the repo selected
 - [ ] Agree or amend the agent structure in `docs/06-agent-structure.md`
@@ -53,10 +49,12 @@ sessions need closed), **To get back to you on** (things Claude owes you), **In 
 | Session | Status | Last report |
 |---|---|---|
 | Product | Scaffold committed locally; waiting on repo attach | 2026-11-06 |
-| Interface design | M0 delivered: three concepts on branch `design`, PR 1 open, review page published by Product; session idle until the founder picks a direction | 2026-11-07 |
+| Interface design | M0 merged to main (PR 1, 2026-11-21); session idle until the founder picks a direction | 2026-11-21 |
 | All others | Not started | |
 
 ## Done
+
+- [x] GitHub account restored (2026-11-21); all branches pushed, PR 1 merged
 
 - [x] Name shortlist and recommendation (Anou, Zil, Ayo)
 - [x] Core experience defined: morning brief, Tonight, Passport, Kreol word, host page
