@@ -80,3 +80,10 @@ Rules: always muted and inline, pause when not visible, one clip per screen at m
 - Do we commission a photographer for the pilot region, or launch on licensed stock plus
   partner-submitted photos with strict quality rules?
 - Does the brief show a map at all in v1, or only place names with a "directions" link?
+- *Resolved (ADR 0002):* the hero clip shows conditions where the brief sends you; the brief
+  carries a condition word from a fixed vocabulary (Flat, Windy, Rain, Clear, Swell, Hot);
+  missing clips fall back to an animated poster. See `docs/decisions/0002-hero-conditions.md`.
+- *Design assumption (M0):* Tonight keeps the light background with an indigo accent
+  shift, per the image-model brief; no dark theme.
+- The landing page shows the iOS steps by default in the concepts; Android gets a single
+  Install button. Platform detection rules belong in the M1 spec.

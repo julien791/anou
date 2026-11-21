@@ -1,0 +1,139 @@
+/* Concept C · Sega — today's condition is one huge word and the clip plays inside it.
+   Colour blocks from sega skirts and painted shopfronts; type does the shouting, never the copy. */
+:root {
+  --cream: #fff6e8;
+  --ink: #17161a;
+  --ink-2: #57524c;
+  --orange: #e8692e;   /* used as a block with ink text: 5.6:1 */
+  --green: #145a4f;    /* with cream text: 7.6:1 */
+  --indigo: #24275e;   /* with cream text: 12:1 */
+  --yellow: #f4c542;
+  --pink: #f2a7a0;
+  --display: "Anton", Impact, sans-serif;
+  --body: "Manrope", system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; }
+html { background: #d8cfc0; }
+body { font: 17px/1.5 var(--body); color: var(--ink); -webkit-font-smoothing: antialiased; }
+.phone { max-width: 390px; margin: 0 auto; background: var(--cream); min-height: 100vh; position: relative; overflow: clip; }
+svg { width: 22px; height: 22px; flex: none; }
+a { color: inherit; }
+.k { font: 800 12px/1.2 var(--body); letter-spacing: .16em; text-transform: uppercase; }
+
+.top { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px 0; font-weight: 700; font-size: 15px; }
+.logo { font: 400 26px var(--display); letter-spacing: .02em; text-transform: uppercase; }
+
+/* The cut-out word: video underneath, cream layer with black text blended with screen,
+   so black letters become windows onto the clip. */
+.cut { position: relative; height: 210px; margin-top: 4px; isolation: isolate; overflow: hidden; }
+.cut video, .cut .still { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: center/cover; }
+.cut video { animation: drift 12s ease-in-out infinite alternate; }
+.cut .mask { position: absolute; inset: 0; background: #fff; mix-blend-mode: screen; display: grid; place-items: center; }
+.cut .mask span { font: 400 196px/1 var(--display); letter-spacing: -.01em; color: #000; text-transform: uppercase; white-space: nowrap; transform: translateY(6px);
+  animation: wipe .9s cubic-bezier(.2,.8,.2,1) both; }
+[data-cond="windy"] .cut .mask span { font-size: 150px; }
+
+/* Arch window with the full clip */
+.arch { position: relative; margin: 0 20px; height: 300px; border-radius: 175px 175px 0 0; overflow: hidden; background: var(--green) center/cover; }
+.arch video { width: 100%; height: 100%; object-fit: cover; }
+.dial { position: absolute; right: 12px; bottom: 12px; width: 108px; background: var(--cream); border-radius: 14px; padding: 8px 8px 6px; text-align: center; }
+.dial svg { width: 92px; height: 72px; }
+.dial .k { font-size: 10px; letter-spacing: .1em; }
+
+.block { padding: 22px 22px 24px; }
+.block.green { background: var(--green); color: var(--cream); margin: 0 20px; }
+.block h1 { font: 400 40px/1.02 var(--display); text-transform: uppercase; letter-spacing: .005em; margin: 8px 0 12px; }
+.block .lede { font-size: 18px; }
+.matched { display: inline-flex; gap: 8px; align-items: center; margin-top: 14px; font-size: 13px; font-weight: 700; background: rgba(255,246,232,.14); padding: 6px 10px; border-radius: 99px; }
+.matched::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--yellow); }
+
+.switch { display: flex; gap: 8px; align-items: center; margin: 14px 20px 0; font-size: 12px; color: var(--ink-2); }
+.switch a { text-decoration: none; padding: 6px 10px; border: 1px dashed var(--ink-2); border-radius: 99px; }
+.switch a[aria-current] { background: var(--ink); color: var(--cream); border-style: solid; }
+
+/* Cards: photo then colour block */
+.cards { display: grid; gap: 16px; padding: 20px 20px 4px; }
+.card { display: grid; grid-template-rows: auto auto; border-radius: 4px; overflow: hidden; }
+.card .ph { aspect-ratio: 4/5; background: var(--green) center/cover; position: relative; }
+.card .n { position: absolute; left: 0; top: 0; font: 400 46px/1 var(--display); background: var(--cream); padding: 6px 12px 4px; }
+.card .txt { padding: 16px 18px 18px; background: var(--orange); color: var(--ink); position: relative; }
+.card:nth-child(2) .txt { background: var(--yellow); }
+.card:nth-child(3) .txt { background: var(--pink); }
+.card h3 { font: 400 28px/1.05 var(--display); text-transform: uppercase; }
+.card p { font-size: 16px; font-weight: 600; margin-top: 4px; }
+.card .tag { position: absolute; right: 14px; top: -22px; background: var(--ink); color: var(--cream); font: 800 14px var(--body); padding: 10px 14px; border-radius: 99px; }
+.card .partner { display: inline-block; margin-top: 8px; font: 800 11px var(--body); letter-spacing: .14em; text-transform: uppercase; border: 1.5px solid currentColor; padding: 3px 7px; }
+
+.tip { margin: 16px 20px 16px; padding: 16px 18px; background: var(--indigo); color: var(--cream); display: flex; gap: 12px; font-weight: 700; }
+.tip svg { color: var(--yellow); }
+
+.tabs { position: sticky; bottom: 0; z-index: 5; display: grid; grid-template-columns: repeat(4,1fr); background: var(--ink); color: #bdb6ab; padding: 8px 6px 22px; }
+.tabs a { display: grid; justify-items: center; gap: 2px; font: 800 11px var(--body); letter-spacing: .1em; text-transform: uppercase; text-decoration: none; min-height: 44px; padding-top: 4px; }
+.tabs a[aria-current] { color: var(--yellow); }
+
+/* Landing */
+.landing .cut { height: 190px; }
+.landing .cut .mask span { font-size: 112px; }
+.landing .arch { height: 250px; }
+.welcome { margin: 0 20px; background: var(--indigo); color: var(--cream); padding: 20px 20px 22px; }
+.welcome h1 { font: 400 36px/1.02 var(--display); text-transform: uppercase; margin: 6px 0 10px; }
+.welcome .row { display: flex; gap: 10px; flex-wrap: wrap; font-size: 15px; font-weight: 600; }
+.welcome .row span { display: inline-flex; gap: 6px; align-items: center; background: rgba(255,246,232,.12); padding: 6px 10px; }
+.welcome .row svg { width: 18px; height: 18px; }
+.peek { margin: 16px 20px 0; padding: 0 0 16px; border-bottom: 3px solid var(--ink); }
+.peek h3 { font: 400 26px/1.05 var(--display); text-transform: uppercase; margin-top: 6px; }
+.install { margin: 20px 0 0; background: var(--orange); padding: 26px 20px 30px; }
+.install h2 { font: 400 46px/.98 var(--display); text-transform: uppercase; }
+.three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 20px 0; }
+.three div { background: var(--cream); padding: 10px 10px 12px; display: grid; gap: 4px; font-size: 14px; font-weight: 700; line-height: 1.25; }
+.three b { font: 400 44px/1 var(--display); }
+.three svg { width: 28px; height: 28px; color: var(--indigo); }
+.btn { display: flex; justify-content: center; align-items: center; gap: 10px; min-height: 58px; background: var(--ink); color: var(--cream); text-decoration: none; font: 400 24px var(--display); text-transform: uppercase; letter-spacing: .03em; }
+.promise { margin-top: 14px; font-weight: 800; font-size: 17px; text-align: center; }
+.small { text-align: center; font-size: 14px; margin-top: 2px; font-weight: 600; }
+
+/* Tonight */
+.tn-head { padding: 6px 20px 0; }
+.tn-word { font: 400 120px/.9 var(--display); text-transform: uppercase; color: transparent; background: var(--indigo) center/cover; -webkit-background-clip: text; background-clip: text; letter-spacing: -.01em; }
+.tn-meta { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0 6px; }
+.tn-meta span { background: var(--indigo); color: var(--cream); font-weight: 800; font-size: 14px; padding: 6px 10px; display: inline-flex; gap: 6px; align-items: center; }
+.tn-meta svg { width: 18px; height: 18px; color: var(--yellow); }
+.ev { display: grid; grid-template-columns: 1fr 120px; margin: 14px 20px 0; border-top: 3px solid var(--ink); padding-top: 12px; gap: 12px; }
+.ev time { font: 400 54px/.9 var(--display); color: var(--indigo); }
+.ev h3 { font: 400 26px/1.05 var(--display); text-transform: uppercase; margin-top: 6px; }
+.ev .where { font-weight: 800; font-size: 14px; color: var(--ink-2); }
+.ev p { font-size: 16px; margin-top: 6px; }
+.ev .ph { aspect-ratio: 4/5; background: var(--indigo) center/cover; border-radius: 60px 60px 0 0; }
+.price { display: inline-flex; gap: 4px; align-items: center; margin-top: 8px; font-weight: 800; font-size: 14px; }
+.price i { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--ink); }
+.price i.on { background: var(--ink); }
+.price span { margin-left: 6px; }
+
+/* Passport */
+.pp-head { display: flex; align-items: flex-end; justify-content: space-between; padding: 8px 20px 12px; border-bottom: 3px solid var(--ink); margin: 0 0 16px; }
+.pp-head h1 { font: 400 46px/.95 var(--display); text-transform: uppercase; }
+.pp-head .big { font: 400 74px/.85 var(--display); color: var(--orange); }
+.pp-head .big small { font-size: 30px; color: var(--ink); }
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 0 20px; }
+.tile { aspect-ratio: 1; display: grid; place-items: center; align-content: center; gap: 6px; text-align: center; font: 800 11px/1.15 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 6px; }
+.tile.got { background: var(--orange); border-radius: 14px; }
+.tile.got:nth-child(2) { background: var(--yellow); }
+.tile.got:nth-child(4) { background: var(--green); color: var(--cream); }
+.tile.got:nth-child(7) { background: var(--pink); }
+.tile.got:nth-child(11) { background: var(--indigo); color: var(--cream); }
+.tile.got svg { width: 46px; height: 46px; }
+.tile.empty { border: 2.5px solid var(--ink); border-radius: 50%; color: var(--ink-2); }
+.tile.empty b { font: 400 34px/1 var(--display); color: var(--ink); }
+.ladder { margin: 20px 20px 0; display: grid; grid-template-columns: repeat(3,1fr); gap: 0; border: 3px solid var(--ink); }
+.ladder div { padding: 10px; font-size: 13px; font-weight: 700; line-height: 1.25; border-right: 3px solid var(--ink); }
+.ladder div:last-child { border-right: 0; }
+.ladder b { display: block; font: 400 30px/1 var(--display); }
+.ladder .done { background: var(--green); color: var(--cream); }
+.nudge-c { margin: 18px 20px 18px; display: grid; grid-template-columns: 120px 1fr; background: var(--indigo); color: var(--cream); }
+.nudge-c .ph { background: center/cover; min-height: 150px; }
+.nudge-c div:last-child { padding: 14px 16px; }
+.nudge-c h3 { font: 400 24px/1.05 var(--display); text-transform: uppercase; margin-top: 6px; }
+
+@keyframes drift { from { transform: scale(1.05); } to { transform: scale(1.18) translate(-3%, 2%); } }
+@keyframes wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
